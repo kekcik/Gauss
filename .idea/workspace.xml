@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4766d37f-3d1b-4d45-91d1-4b8a8222d515" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphicBuild/LeftBeam.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/GraphicBuild/RightBeam.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Gauss/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Gauss/Test.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Main.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/Test.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Gauss/GraphicBuild/Main.class" afterPath="$PROJECT_DIR$/out/production/Gauss/GraphicBuild/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/preza/Gauss.key" afterPath="$PROJECT_DIR$/preza/Gauss.key" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphicBuild/Approx.java" afterPath="$PROJECT_DIR$/src/GraphicBuild/Approx.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/GraphicBuild/Main.java" afterPath="$PROJECT_DIR$/src/GraphicBuild/Main.java" />
-    </list>
+    <list default="true" id="4766d37f-3d1b-4d45-91d1-4b8a8222d515" name="Default" comment="" />
     <ignored path="Gauss.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -947,12 +935,20 @@
       <workItem from="1484754901353" duration="202000" />
       <workItem from="1484826518860" duration="978000" />
       <workItem from="1484933918201" duration="3306000" />
-      <workItem from="1485006149248" duration="14830000" />
+      <workItem from="1485006149248" duration="14970000" />
     </task>
+    <task id="LOCAL-00001" summary="aaaaaaaa">
+      <created>1485213060489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1485213060489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="59606000" />
+    <option name="totallyTimeSpent" value="59746000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="873" extended-state="0" />
@@ -995,6 +991,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="aaaaaaaa" />
+    <option name="LAST_COMMIT_MESSAGE" value="aaaaaaaa" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1705,6 +1705,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2505">
           <caret line="8" column="85" selection-start-line="8" selection-start-column="85" selection-end-line="8" selection-end-column="85" />
+          <folding />
         </state>
       </provider>
     </entry>
