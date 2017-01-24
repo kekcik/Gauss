@@ -14,16 +14,16 @@ public class Approx {
 
 
     //pre: ArrayList<Double> != null
-    //post: ArrayList<Double> != null
+    //post: ArrayList<Double> yCoorcds of sequence X, that return coord of W(z) for Guassian beam != null
     public static ArrayList<Double> getYCoords(ArrayList<Double> xCoords, boolean isPos, double w) {
 
         ArrayList<Double> result = new ArrayList<Double>();
 
         double tmp;
 
-        for(int i = 0; i < xCoords.size(); i++) {
+        for (int i = 0; i < xCoords.size(); i++) {
             tmp = w * Math.sqrt(1 + Math.pow(((2 * xCoords.get(i)) / (2 * Math.PI * Math.pow(w, 2) / lambda)), 2));
-            if(isPos) {
+            if (isPos) {
                 result.add(tmp);
             } else {
                 result.add(-tmp);
@@ -32,7 +32,5 @@ public class Approx {
 
         return result;
     }
-
-
 
 }
