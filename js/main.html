@@ -11,11 +11,76 @@
         margin: 8px auto;
       }
     </style>
+    <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.css">
   </head>
-  <body>
-    <div id="container"></div>
-    <script type="text/javascript" src="static/js/flotr2.js"></script>
-    <script type="text/javascript" src="scripts/logic.js"></script>
-      
-  </body>
+<body>
+  
+  <div id="container"></div>
+  <script src="http://code.angularjs.org/snapshot/angular.js"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/angular_material/1.1.0/angular-material.min.js"></script>
+  <script type="text/javascript" src="static/js/flotr2.js"></script>
+  <script type="text/javascript" src="scripts/logic.js"></script>
+  <div ng-controller="MyController">
+    <button ng-click="setDefault()">
+      Set Default
+    </button>
+    <div> 
+      Lamda: <input type="number" ng-model="alpha" placeholder="Lamda" ng-init='setDefault()'>
+      y: <input type="number" ng-model="yyy" placeholder="yyy" ng-init='setDefault()'>
+      add: <input type="number" ng-model="add" placeholder="add" ng-init='setDefault()'>
+      dx: <input type="number" ng-model="dx" placeholder="dx" ng-init='setDefault()'>
+
+    </div>
+    <hr>
+    <div>
+      Lens 1 - 
+    </div>
+    <div>
+      r1: <input type="number" ng-model="lens1.r1" placeholder="radius 1">
+      r2: <input type="number" ng-model="lens1.r2" placeholder="radius 2">
+       x: <input type="number" ng-model="lens1.x" placeholder="x position"> 
+       <div>
+          f = {{lens1.r1*lens1.r2/(0.6*(lens1.r1+lens1.r2))}}
+       </div>
+    </div>
+    <div>
+          <hr>
+
+      Lens 2 - 
+    </div>
+    <div>
+      r1: <input type="number" ng-model="lens2.r1" placeholder="radius 1"> 
+      r2: <input type="number" ng-model="lens2.r2" placeholder="radius 2">
+       x: <input type="number" ng-model="lens2.x" placeholder="x position">
+       <div>
+          f = {{lens2.r1*lens2.r2/(0.6*(lens2.r1+lens2.r2))}}
+       </div>
+    </div>
+    <div>
+      <hr>
+      First
+    </div>
+    <div>
+      z0: <input type="number" ng-model="gauss1.z0" placeholder="z0"> 
+      w0: <input type="number" ng-model="gauss1.w0" placeholder="w0">
+    </div>
+    <div>
+      <hr>
+      Second
+    </div>
+    <div>
+      z0: {{gauss2.z0}} |||||
+      w0: {{gauss2.w0}}
+    </div>
+
+    <div>
+      <hr>
+      Third
+    </div>
+    <div>
+      z0: {{gauss3.z0}} |||||
+      w0: {{gauss3.w0}}
+    </div>
+  </div>
+</body>
 </html>
